@@ -1,4 +1,4 @@
-# Dicoding Collection Dashboard ✨
+# Bike Sharing Dashboard 🚲✨
 
 ## Setup Environment - Anaconda
 ```
@@ -18,5 +18,5 @@ pip install -r requirements.txt
 
 ## Run steamlit app
 ```
-streamlit run dashboard.py
+streamlit run Dashboard.py
 ```
