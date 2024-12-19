@@ -4,6 +4,8 @@
 ```
 conda create --name main-ds python=3.9
 conda activate main-ds
+mkdir submission
+cd submission
 pip install -r requirements.txt
 ```
 
