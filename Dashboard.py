@@ -101,7 +101,6 @@ max_date = hour_df["dteday"].max()
  
 with st.sidebar:
     
-    # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
         label='Rentang Waktu',min_value=min_date,
         max_value=max_date,
@@ -271,6 +270,7 @@ with tab2:
             linewidth=2,
             color="#90CAF9"
         )
+        ax.set_title('Daily Total Rentals',fontsize=20)
         ax.tick_params(axis='y', labelsize=20)
         ax.tick_params(axis='x', labelsize=15)
          
